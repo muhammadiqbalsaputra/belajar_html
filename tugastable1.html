@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <title>Tugas Tabel</title>
+        <style>
+            body{
+                background-color: rgb(255, 246, 228);
+            }
+            table{
+                margin: auto;
+                width: 80%;
+                border: 1px solid black;
+            }
+            tr, th,td{
+                border: 1px solid white;    
+                border-collapse: collapse;         
+            }
+            th{
+                border: 1px transparent;
+                background-color: 1a8cff;
+                color: white;
+                font-size: large;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            #jadwalPerkuliahan{
+                margin-left: 450px;
+            }
+            td{
+                padding: 20px;
+            }
+            tr:nth-child(odd){
+                background-color: #c9e5ff; 
+            }
+            tr:nth-child(even){
+                background-color: #e5f2fe;
+            }
+            h1{
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color: blue ;
+            }
+            h1:hover{
+                color: blueviolet;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="jadwalPerkuliahan">JADWAL PERKULIAHAN</h1>
+        <table>
+            <tr>
+                <th>No.</th>
+                <th>NIM</th>
+                <th>Mata Kuliah</th>
+                <th>Ruang</th>
+                <th>Dosen Pengampu</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>23090120</td>
+                <td>Sistem Basis Data 1</td>
+                <td rowspan="3">D4-3</td>
+                <td>Taufiq Abidin, M.Kom.</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>23090121</td>
+                <td>Matematika Numerik</td>
+                <td>Aji Bagus Setiawan, S.Tr.Kom.</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>23090122</td>
+                <td>Enterprise Resource Planning</td>
+                <td>Dyah Apriliani, S.T., M.Kom.</td>
+            </tr>
+            <tr id="Statistika">
+                <td>4</td>
+                <td>23090123</td>
+                <td>Statistika</td>
+                <td>D4-6</td>
+                <td>Aulia Rizqisyarifa, STr.Kom</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>23090124</td>
+                <td>Pemrograman Komputer 1</td>
+                <td rowspan="2">LAB D1</td>
+                <td>M. Nishom, M.Kom.</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>23090125</td>
+                <td>Pemrograman Web 1</td>
+                <td>Sharfina Febbi Handayani, M.Kom.</td>
+            </tr>
+            <tr id="desainGrafis">
+                <td>7</td>
+                <td>23090126</td>
+                <td>Desain Grafis dan Multimedia</td>
+                <td>LAB D2</td>
+                <td>Muhamad Sahrul Syabani, STr.Kom</td>
+            </tr>
+        </table>
+    </body>
+</html>
